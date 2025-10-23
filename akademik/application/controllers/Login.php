@@ -1,0 +1,25 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Login extends CI_Controller
+{
+
+    public function index()
+    {
+        redirect(base_url());
+    }
+
+    public function cek()
+    {
+        if ($this->input->method(true) == 'POST' && !empty($_POST)) {
+            $in['username'] = $this->input->post('username');
+            $in['password'] = $this->input->post('password');
+            $this->Login_model->cek($in);
+            // redirect(base_url("/home"));
+
+        } else {
+            redirect(base_url());
+        }
+    }
+
+}

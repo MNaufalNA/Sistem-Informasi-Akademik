@@ -1,0 +1,4 @@
+[14-Jan-2020 08:34:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '<' in /home/smky7972/public_html/asis/alumni/application/views/front/home/home.php on line 76
+[14-Oct-2021 10:28:55 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/polr4935/public_html/asis/alumni/application/controllers/App.php on line 331
+[14-Oct-2021 11:11:08 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/polr4935/public_html/asis/alumni/application/controllers/App.php on line 331
+[14-Oct-2021 11:13:44 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/polr4935/public_html/asis/alumni/application/controllers/App.php on line 331
